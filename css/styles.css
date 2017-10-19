@@ -1,0 +1,27 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+section#one{
+  background-image: url("../assets/backgrounds/landing.jpg");
+  background-position: center;
+  padding: 20px;
+  min-height: 300px;
+}
+div#nav{
+  width: 5%;
+}
+div#nav>hr{
+  float: left;
+  width: 100%;
+
+}
+/*div#nav:hover{
+  div#nav>{
+    display: block;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(130deg);
+  }
+}*/
