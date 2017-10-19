@@ -2,9 +2,11 @@ $(document).ready(function(){
   $("#nav").hover(
     function(){
     $("hr").css({"transition-duration":" 2s","transform":"rotate(360deg)"});
+    $(".links").css("display","block");
      },
      function(){
      $("hr").css({"transition-duration":" 0s","transform":"rotate(0deg)"});
+     $(".links").css("display","none");
      }
 
 

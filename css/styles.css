@@ -17,6 +17,14 @@ div#nav>hr{
   width: 100%;
 
 }
+div.links{
+  width: 20%;
+    font-size: 23px;
+margin-left: 6%;
+position: absolute;
+margin-top: -2%;
+display: none
+}
 /*div#nav:hover{
   div#nav>{
     display: block;
