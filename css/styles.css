@@ -31,15 +31,16 @@ div#four{
   padding: 20px;
   min-height: 300px;
 }
-div#6{
+div#six{
   background-image: url("../assets/backgrounds/subscribe.jpg");
   background-position: center;
   padding: 20px;
   min-height: 300px;
-  font-color: #fff
+  text-color: #fff
+  text-emphasis-color: #555;
 }
-div#7{
-  background-color:#FF4500
+div#eight{
+  color:#FF4500
   background-position: center;
   padding: 20px;
   min-height: 300px;
