@@ -25,11 +25,22 @@ div.links{
   margin-top: -2%;
   display: none
 }
-/*div#nav:hover{
-  div#nav>{
-    display: block;
-    -ms-transform: rotate(7deg);
-    -webkit-transform: rotate(7deg);
-    transform: rotate(130deg);
-  }
-}*/
+div#four{
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  background-position: center;
+  padding: 20px;
+  min-height: 300px;
+}
+div#6{
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  background-position: center;
+  padding: 20px;
+  min-height: 300px;
+  font-color: #fff
+}
+div#7{
+  background-color:#FF4500
+  background-position: center;
+  padding: 20px;
+  min-height: 300px;
+}
