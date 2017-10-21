@@ -37,11 +37,15 @@ div#six{
   padding: 20px;
   min-height: 300px;
   text-color: #fff
-  text-emphasis-color: #555;
 }
 div#eight{
   color:#FF4500
   background-position: center;
   padding: 20px;
   min-height: 300px;
+}
+div#seven{
+text-align: center;
+font-size: 25px;
+color: #FF4500
 }
