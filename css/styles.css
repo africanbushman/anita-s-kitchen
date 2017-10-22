@@ -9,6 +9,17 @@ section#one{
   padding: 20px;
   min-height: 300px;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+#right {
+
+}
+#left {
+
+}
 div#nav{
   width: 5%;
 }
@@ -34,16 +45,12 @@ div#four{
 div#six{
   background-image: url("../assets/backgrounds/subscribe.jpg");
   background-position: center;
-  padding: 20px;
+  padding: 40px;
   min-height: 300px;
-  text-color: #fff
+  font-size: 40px;
+  text-align: center;
 }
-div#eight{
-  color:#FF4500
-  background-position: center;
-  padding: 20px;
-  min-height: 300px;
-}
+
 div#seven{
 text-align: center;
 font-size: 25px;
