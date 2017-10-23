@@ -9,16 +9,17 @@ section#one{
   padding: 20px;
   min-height: 300px;
 }
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
+.box {
+  display: block;
+  margin: 100px;
+  box-sizing: border-box;
+  -moz-float-edge: margin-box;
 }
-#right {
-
-}
-#left {
-
+.box2 {
+  display: block;
+  margin: 100px;
+  box-sizing: border-box;
+  -moz-float-edge: margin-box;
 }
 div#nav{
   width: 5%;
