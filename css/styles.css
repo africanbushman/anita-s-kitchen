@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -10,6 +11,76 @@ section#one {
   padding: 20px;
   min-height: 300px;
 }
+
+
+#happy{
+  color: white;
+  background-color: grey;
+  padding: 10px;
+  padding: 20 px;
+  background-color: #9a9292 ;
+  text-align: center;
+  width: 315x;
+}
+
+#party{
+    color: white;
+    background-color: #F15A29;
+    padding: 10px;
+    padding: 20 px;
+    background-color: #F15A29;
+    color: #FFFFFF;
+    text-align: center;
+    width: 315 px;
+}
+
+/*#dinner{
+  background-image: url("../assets/foodtop/dinner.jpg");
+  background-repeat: no - repeat;
+  background-size: cover
+  padding-bottom: 205.5 px;
+}*/
+#dinner: hover.overlay-row {
+  opacity: 3;
+}
+
+#breakfast {
+  background-image: url("../assets/foodtop/breakfast.jpg");
+  background-repeat: no - repeat;
+  background-size: cover;
+  padding-bottom: 205.5 px;
+}
+#breakfast: hover.overlay-row {
+  opacity: 3;
+}
+
+#lunch {
+    background-image: url("../assets/foodtop/lunch.jpg");
+    background-repeat: no - repeat;
+    background-size: cover;
+    padding-bottom: 205.5 px;
+}
+#lunch: hover.overlay-row {
+    opacity: 3;
+  }
+
+
+.overlay-row {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E5E5E5 ;
+  color: #FFFFFF ;
+  text-transform: capitalize;
+  font-size: 30px;
+  }
+
 
 .box {
   display: block;
@@ -62,4 +133,42 @@ div#seven {
   text-align: center;
   font-size: 25px;
   background-color: #FF4500
+}
+#hour {
+  background-color: grey;
+  height: 100px;
+}
+#party {
+  background-color:#F15A29;
+  height: 100px;
+
+}
+#row-box {
+  margin-top: -10px;
+  margin-left: -10px;
+  padding: 0px;
+}
+#breakfast {
+  background-image: url(../assets/foodtop/breakfast.jpg);
+  height: 200px;
+  margin-left: -30px;
+  position: relative;
+  top: 10px;
+}
+#lunch {
+  background-image: url(../assets/foodtop/lunch.jpg);
+  height: 200px;
+  margin-left: -30px;
+  position: relative;
+  top: 10px;
+
+}
+#dinner {
+  background-image: url(../assets/foodtop/dinner.jpg);
+  height: 200px;
+  margin-left: -30px;
+  margin-right: -100px;
+  position: relative;
+  top: 10px;
+  background-size: cover;
 }
