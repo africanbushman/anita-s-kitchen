@@ -137,10 +137,14 @@ div#seven {
 #hour {
   background-color: grey;
   height: 100px;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
 }
 #party {
   background-color:#F15A29;
   height: 100px;
+  font-size: 50px;
 
 }
 #row-box {
