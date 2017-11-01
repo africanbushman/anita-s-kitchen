@@ -24,24 +24,15 @@ section#one {
 }
 
 #party{
-    color: white;
+    color: black;
     background-color: #F15A29;
     padding: 10px;
     padding: 20 px;
     background-color: #F15A29;
-    color: #FFFFFF;
     text-align: center;
     width: 315 px;
 }
 
-/*#dinner{
-  background-image: url("../assets/foodtop/dinner.jpg");
-  background-repeat: no - repeat;
-  background-size: cover
-  padding-bottom: 205.5 px;
-}*/
-#dinner: hover.overlay-row {
-  opacity: 3;
 }
 
 #breakfast {
@@ -50,7 +41,7 @@ section#one {
   background-size: cover;
   padding-bottom: 205.5 px;
 }
-#breakfast: hover.overlay-row {
+#breakfast: hover {
   opacity: 3;
 }
 
@@ -59,26 +50,12 @@ section#one {
     background-repeat: no - repeat;
     background-size: cover;
     padding-bottom: 205.5 px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: -30px;
 }
-#lunch: hover.overlay-row {
+#lunch:hover {
     opacity: 3;
-  }
-
-
-.overlay-row {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;*/
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #E5E5E5 ;
-  color: #FFFFFF ;
-  text-transform: capitalize;
-  font-size: 30px;
   }
 
 
@@ -140,12 +117,18 @@ div#seven {
   text-align: center;
   font-size: 50px;
   margin-top: 10px;
+  color: black;
+}
+#hour:hover {
+  color: white
 }
 #party {
   background-color:#F15A29;
   height: 100px;
   font-size: 50px;
-
+}
+#party:hover {
+  color: white
 }
 #row-box {
   margin-top: -10px;
@@ -159,6 +142,9 @@ div#seven {
   position: relative;
   top: 10px;
 }
+
+}
+
 #lunch {
   background-image: url(../assets/foodtop/lunch.jpg);
   height: 200px;
