@@ -150,6 +150,7 @@ div#seven {
   background-image: url(../assets/foodtop/lunch.jpg);
   height: 200px;
   margin-left: -30px;
+  margin-right: -50px;
   position: relative;
   top: 10px;
 
@@ -158,7 +159,7 @@ div#seven {
   background-image: url(../assets/foodtop/dinner.jpg);
   height: 200px;
   margin-left: -30px;
-  margin-right: -100px;
+  margin-right: -189px;
   position: relative;
   top: 10px;
   background-size: cover;
@@ -194,4 +195,7 @@ cursor: pointer;
 box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+five {
+
 }
